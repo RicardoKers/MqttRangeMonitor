@@ -1,0 +1,23 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "username": "",
+    "password": "",
+    "client_id": "mqtt_client",
+    "topics": [
+      {
+        "topic": "/my/temperature/",
+        "max_value": 35.00,
+        "min_value": 10.00,
+        "hysteresis": 0.2
+      },
+      {
+        "topic": "/my/humidity/",
+        "max_value": 90.00,
+        "min_value": 20.00,
+        "hysteresis": 1.0
+      }
+    ],
+    "telegram_bot_token": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
+    "telegram_chat_id": "987654321"
+  }
